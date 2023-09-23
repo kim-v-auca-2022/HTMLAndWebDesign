@@ -11,7 +11,7 @@ h1, h2, div, a, li, p {
 
 .shape1 {
     position: absolute;
-    margin-left: -10px;
+    margin: 0 0 0 -8px;
     z-index: -3;
     background-color: white;
     width: 100%;
@@ -62,7 +62,7 @@ h2 {
 
 .shape4 {
     position: absolute;
-    margin: 270px 0 0 -10px;
+    margin: 270px 0 0 -7pt;
     z-index: -3;
     background-color: white;
     width: 100%;
@@ -78,5 +78,24 @@ h2 {
 }
 
 .zeButtonImage {
-    size: 50px;
+    width: 300px;
+}
+
+.btn-link {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* To remove the underline from the anchor */
+    text-align: center;
+}
+.btn-link:hover {
+    background-color: #555;
+    cursor: pointer; /* Hand icon when hovering over the button */
+}
+
+li {
+    margin-top: 5px;
 }
