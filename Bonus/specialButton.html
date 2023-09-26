@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special button</title>
+    <style>
+        .toggle {
+            border: 1px solid grey;
+            cursor: pointer;
+            padding: 10px;
+        }
+        
+        .panel {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="toggle" id="asdf" onclick="toggle()">Click to show some info</div>
+    <div class="panel" id="panel">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sunt culpa dolorem sapiente, quos voluptatem animi quas deserunt, molestias eaque a fuga? Similique, sit quis ad est eos perferendis nesciunt?
+    </div>
+
+    <script>
+        function toggle() {
+            /*document.getElementsById("panel").style.display = "block";*/
+            if (document.getElementById("panel").style.display == "block") {
+                // console.log("test")
+                document.getElementById("panel").style.display = "none";
+            } else {
+                document.getElementById("panel").style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
