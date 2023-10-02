@@ -3,11 +3,12 @@
 p*4 - print <p> tag 4 times
 lorem5 - print lorem text with 5 words
 
--= We could make double references in style (article div {}) to make specific changes
-= article div, button {} - make changes in div And button inside article tag (if div and button are seperated)
-= "," in this case apply changes to tags in one equal level
--= Classes can have multiple names (<div class:"padding margin">)
--= Padding in website is essencial (like pauses in theatres)
+* We could make double references in style (article div {}) to make specific changes
+article div, button {} - make changes in div And button inside article tag (if div and button are seperated)
+"," in this case apply changes to tags in one equal level
+
+* Classes can have multiple names (<div class:"padding margin">)
+Padding in website is essencial (like pauses in theatres)
 
 CSS Box Model:
 1. block
@@ -16,7 +17,8 @@ CSS Box Model:
 Padding - takes spaces inside block
 Margin - takes spaces outside of the box
 
--= Margin in body by default is shifted by 8px (based on browser settings)
-= to remove the body margin: "body {margin: 0px; padding: 0px;}"
--= "box-sizing: border-box" in style completely changes the width and height properties;
-= (width value corresponds to the sum of all values in Box Model)
+* Margin in body by default is shifted by 8px (based on browser settings)
+to remove the body margin: "body {margin: 0px; padding: 0px;}"
+
+* "box-sizing: border-box" in style completely changes the width and height properties;
+(width value corresponds to the sum of all values in Box Model)
