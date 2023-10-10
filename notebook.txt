@@ -26,3 +26,5 @@ to remove the body margin: "body {margin: 0px; padding: 0px;}"
 
 <03.10.23>
 FlexBox
+* background-size: cover        - the background picture never squeezes
+* background-position: center   - the background picture positioned in center when squeezing
