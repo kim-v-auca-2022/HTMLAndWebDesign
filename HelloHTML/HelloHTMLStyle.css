@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(5, 65, 10);
+    margin: 0px; 
+    padding: 0px;
+}
+.body {
+    max-height: 700vh;
+}
+h1, h2, div, a, li, p {
+    font-family: 'Roboto Slab';
+}
+
+
+/* h1 {
+    position: relative;
+    padding: 50 50 50 50;   
+    margin: 0 0 0 20%; 
+} */
+h1 {
+    position: relative;
+    margin: 0 480px 0 480px;
+    padding: 20px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    border-bottom: 6px solid darkgray;
+    border-right: 2px solid darkgrey;
+    border-left: 2px solid darkgray;
+}
+
+.text1 {
+    position: relative;
+    padding: 35px;
+    margin: 20px 200px 0 200px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 60px;
+    border-bottom: 6px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+}
+/* .text1 {
+    position: absolute;
+    margin: 50px 45px 0 45px;
+} */
+
+h2 {
+    position: relative;
+    margin: 30px 480px 0 480px;
+    padding: 2%;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    border-bottom: 6px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+ }
+/* h2 {
+    position: absolute;
+    margin: 50px 0 0 37%;
+} */
+
+.text2 {
+    position: relative;
+    margin: 30px 80px 0 80px;
+    padding: 3%;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 70px;
+    border-bottom: 6px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+}
+/* .text2 {
+    position: absolute;
+    margin: 50px 45px 0 45px;
+} */
+
+.zeButtonImage {
+    width: 300px;
+}
+
+.btn-link {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;  /*To remove the underline from the anchor */
+    text-align: center;
+}
+.btn-link:hover {
+    background-color: #555;
+    cursor: pointer;  /* Hand icon when hovering over the button */
+}
+
+li {
+    margin-top: 5px;
+}
+
+
