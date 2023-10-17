@@ -24,6 +24,21 @@ header {
     align-items: flex-start;
 }
 
+.heroList div {
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    gap: 30px;
+}
+
+.heroList a {
+    font-size: 20px;
+}
+
+.heroList img {
+    width: 60px;
+}
+
 /* .heroList a div {
     padding-left: 2%;
 } */
