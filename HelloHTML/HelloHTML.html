@@ -1,96 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-        <title>Some blog I think</title>
-        <link rel="stylesheet" href="HelloHTMLStyle.css">
-        <style>
-            /* the special button */
-            .for_toggle1 {
-                cursor: pointer;
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Some blog I think</title>
+    <link rel="stylesheet" href="HelloHTMLStyle.css">
+    <style>
+        /* the special button */
+        .for_toggle1 {
+            cursor: pointer;
+        }
+
+        .text2 {
+            display: none;
+        }
+
+        /* for descendant selectors */
+        ul .confused {
+            color: red;
+        }
+
+        /* for compound selectors */
+        li.confused2 {
+            color: green;
+        }
+
+        /* for selector list  (also used in assigning Google fonts)*/
+        li,
+        .confused3 {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="homeLink"> Hello HTML... again </h1>
+
+    <p class="text1">
+        First experiences of learning zis programming was quite rich,
+        but overwhelming, since final project from previous years in college
+        made me rush too much :( <br>
+        <b>But</b> needless to say, while I was making a project,
+        <i> I did manage to learn most of HTML tags at least on the basic level </i>
+        <i><b>(even if I didn't use most of 'em in the final project lel :) ).</b></i>
+    </p>
+
+    <h2 class="for_toggle1" id="aboutLink" onclick=toggle1()> HTML tags I've learned so far </h2>
+    <div class="text2" id="panel1">
+        <a href="https://www.youtube.com"> This is a link tag (a) that leads to the Youtube website </a>
+        <ul>
+            <li> This is a <div class="confused"> several tag mix of (ul) and (li) which make a list thingy </div>
+            </li>
+            <li class="confused2"> and can have as many dots as possible (by spamming (li) )</li>
+            <li class="confused2"> There was a graphical representation of list (like picture slides in online shops)
+                but didn't know how to make it :( ) </li>
+            <li> <a href="#homeLink">
+                    <div class="btn-link">Home</div>
+                </a> </li>
+            <li> <a href="#aboutLink">
+                    <div class="btn-link">About</div>
+                </a> </li>
+            <li> <a href="#endLink">
+                    <div class="btn-link">End</div>
+                </a> </li>
+            <li class="confused3"> This text along with "ul" tag is colored with "selector list" method </li>
+            <li class="confused3"> and this as well </li>
+        </ul>
+        <br>
+
+        <input type="text"> <br>
+        <p> Above is an input text with (input) tag that allows to enter various data <br> </p>
+        <div> There was an (img) tag that allows to import image and also with option to make image clickable, </div>
+        <div> but don't know how to implement it in jsbin :/ <br> </div>
+        <br>
+
+        <div> Don't know how to color the words using only HTML, <i>but it's possible with CSS file</i>, </div>
+        <div> and implementing names of CSS properties into tags </div>
+        <br>
+
+        <a href="https://theuselessweb.com">
+            <img class="zeButtonImage" id="endLink" src="1647025957_5-kartinkin-net-p-kartinki-knopki-5.png"
+                alt="a red button">
+        </a>
+
+        <button id="backIndex">Back to hero page</button>
+    </div>
+
+
+    <script>
+        function toggle1() {
+            if (document.getElementById("panel1").style.display == "block") {
+                console.log("test")
+                document.getElementById("panel1").style.display = "none";
+            } else {
+                document.getElementById("panel1").style.display = "block";
             }
-            .text2 {
-                display: none;
-            }
+        }
 
-            /* for descendant selectors */
-            ul .confused {
-                color: red;
-            }
+        document.getElementById("backIndex").onclick = function () {
+            location.href = "../index.html";
+        };
+    </script>
+</body>
 
-            /* for compound selectors */
-            li.confused2 {
-                color: green;
-            }
-
-            /* for selector list  (also used in assigning Google fonts)*/
-            li, .confused3 {
-                color: blue;
-            }
-        </style>
-    </head>
-    
-    <body>
-        <h1 id="homeLink"> Hello HTML... again </h1>
-
-        <p class="text1">
-            First experiences of learning zis programming was quite rich,
-            but overwhelming, since final project from previous years in college 
-            made me rush too much :( <br>
-            <b>But</b> needless to say, while I was making a project, 
-            <i> I did manage to learn most of HTML tags at least on the basic level </i>
-            <i><b>(even if I didn't use most of 'em in the final project lel :) ).</b></i> 
-        </p>
-    
-        <h2 class="for_toggle1" id="aboutLink" onclick= toggle1()> HTML tags I've learned so far </h2>
-        <div class="text2" id="panel1">
-            <a href="https://www.youtube.com"> This is a link tag (a) that leads to the Youtube website </a>
-            <ul>
-                <li> This is a <div class="confused"> several tag mix of (ul) and (li) which make a list thingy </div></li>
-                <li class="confused2"> and can have as many dots as possible (by spamming (li) )</li>
-                <li class="confused2"> There was a graphical representation of list (like picture slides in online shops) but didn't know how to make it :( ) </li>
-                <li> <a href="#homeLink"> <div class="btn-link">Home</div> </a> </li>
-                <li> <a href="#aboutLink"> <div class="btn-link">About</div> </a> </li>
-                <li> <a href="#endLink"> <div class="btn-link">End</div> </a> </li>
-                <li class="confused3"> This text along with "ul" tag is colored with "selector list" method </li>
-                <li class="confused3"> and this as well </li>
-            </ul> 
-            <br>
-
-            <input type="text"> <br>
-            <p> Above is an input text with (input) tag that allows to enter various data <br> </p>
-            <div> There was an (img) tag that allows to import image and also with option to make image clickable, </div>
-            <div> but don't know how to implement it in jsbin :/ <br> </div> 
-            <br>
-
-            <div> Don't know how to color the words using only HTML, <i>but it's possible with CSS file</i>, </div>
-            <div> and implementing names of CSS properties into tags </div>
-            <br>
-
-            <a href="https://theuselessweb.com">
-                <img class="zeButtonImage" id="endLink" src="1647025957_5-kartinkin-net-p-kartinki-knopki-5.png" alt="a red button">
-            </a>
-            
-            <button id="backIndex">Back to hero page</button>
-        </div>
-
-        
-        <script>
-            function toggle1() {
-                if (document.getElementById("panel1").style.display == "block") {
-                    console.log("test")
-                    document.getElementById("panel1").style.display = "none";
-                } else {
-                    document.getElementById("panel1").style.display = "block";
-                }
-            }
-            
-            document.getElementById("backIndex").onclick = function () {
-                location.href = "C:/Users/Вячеслав/Desktop/SomeRepos/HTMLAndWebDesign/index.html";
-            };
-        </script>
-        </body>
 </html>
