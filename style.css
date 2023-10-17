@@ -97,6 +97,7 @@ svg {
 }
 
 .beneficials {
+    background-color: hsl(185, 18%, 26%);
     display: flex;
     flex-direction: column;
     align-items: stretch;
