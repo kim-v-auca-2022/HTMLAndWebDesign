@@ -40,7 +40,8 @@ header {
 
 
 .hero {
-    background: linear-gradient(to bottom, hsl(184, 18%, 32%), hsl(183, 19%, 18%));
+    /* background: linear-gradient(to bottom, hsl(184, 18%, 32%), hsl(183, 19%, 18%)); */
+    background-color: hsl(183, 20%, 18%);
     height: 70pc;
 }
 
