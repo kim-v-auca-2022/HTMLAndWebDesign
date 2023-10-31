@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab';
-    background-color: hsl(181, 26%, 22%);
+    background-color: hsl(183, 20%, 18%);
 }
 
 
@@ -44,7 +44,11 @@ header {
 
 
 .hero {
-    background: linear-gradient(to bottom, hsl(184, 18%, 32%), hsl(183, 19%, 18%));
+    /* background: linear-gradient(to bottom, hsl(183, 19%, 18%), hsl(180, 20%, 9%)); */
+    background-image: url(someTitleIThink.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
 .img-header {
@@ -92,7 +96,7 @@ svg {
 
 .beneficials,
 .benefit {
-    background-color: hsl(183, 19%, 18%);
+    background-color: hsl(183, 20%, 18%);
 }
 
 .beneficials {
