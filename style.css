@@ -3,6 +3,7 @@ html body {
 }
 
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab';
@@ -67,18 +68,19 @@ div {
 }
 
 .img-header h1 {
-    font-size: 40px;
+    font-size: 70px;
 }
 
 .img-header div {
-    font-size: 20px;
-    padding: 20px;
+    font-size: 40px;
+    padding: 40px;
 }
 
 button {
     text-align: center;
-    padding: 10px 20px 10px 20px;
-    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
     background-color: hsl(184, 62%, 72%);
     /* border-bottom: 15px black; */
     /* border-right: 15px black; */
@@ -111,13 +113,19 @@ svg {
     color: hsl(183, 42%, 67%);
     margin-top: 100px;
     align-self: center;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
 }
 
 .beneficials h3 {
     align-self: center;
+    font-size: 45px;
+    margin-top: 0%;
+}
+
+.beneficials div {
     font-size: 30px;
+
 }
 
 .benefit {

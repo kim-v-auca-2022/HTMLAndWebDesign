@@ -30,3 +30,16 @@ FlexBox
 * background-position: center   - the background picture positioned in center when shrinking
 
 ! Sections should be implemented in body for better code design (header, main)
+
+! "Checker Box" method in hero page is useful with large texts
+
+
+<21.11.23>
+The Adjacent Sibling Combinator (~) in the CSS:
+element1 ~ element2 { }
+(the child (element2) comes after the parent (element1) in HTML order)
+
+! To connect checkbox click with other tag: add (for="") function with id name of the checkbox tag
+! Checkbox can be hidden for symbol that opens the menu 
+
+@media (max-width: 100px) - allows to use parameters in specific conditions (max-width)
