@@ -86,7 +86,7 @@ header {
 
     .heroList .menu {
         display: none;
-        background: #eee;
+        background: hsl(183, 29%, 54%);
     }
 
     .heroList .menu li {
