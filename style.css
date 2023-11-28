@@ -27,11 +27,11 @@ header {
 }
 
 .heroList a {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .heroList img {
-    width: 60px;
+    width: 90px;
 }
 
 .heroList .menu {
@@ -41,8 +41,8 @@ header {
     gap: 30px;
 }
 
-.menu {
-    background: #eee;
+.heroList .menu {
+    background: hsl(183, 29%, 54%);
     display: none;
 }
 
