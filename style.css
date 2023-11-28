@@ -34,6 +34,7 @@ header {
     width: 90px;
 }
 
+/* Burger list */
 .heroList .menu {
     display: flex;
     align-items: center;
@@ -42,16 +43,11 @@ header {
 }
 
 .heroList .menu ul {
+    padding: 15px;
     list-style: none;
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
-}
-
-.heroList .menu li {
-    padding: 15px;
-    border-bottom: 1px solid #ccc;
-    text-decoration: none;
 }
 
 .heroList .menu a {
