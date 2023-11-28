@@ -144,7 +144,6 @@ button {
     cursor: pointer;
 }
 
-
 svg {
     height: 200px;
     width: 200px;
@@ -185,7 +184,7 @@ svg {
 }
 
 .beneficials .benefit div {
-    max-width: 1500px;
+    max-width: 900px;
 }
 
 .benefit {
