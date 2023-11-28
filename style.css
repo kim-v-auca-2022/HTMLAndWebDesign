@@ -43,11 +43,15 @@ header {
 }
 
 .heroList .menu ul {
-    padding: 15px;
     list-style: none;
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
+}
+
+.heroList .menu li {
+    /* ??? */
+    padding: 15px;
 }
 
 .heroList .menu a {
