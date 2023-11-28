@@ -41,5 +41,6 @@ element1 ~ element2 { }
 
 ! To connect checkbox click with other tag: add (for="") function with id name of the checkbox tag
 ! Checkbox can be hidden for symbol that opens the menu 
+! For smooth transition, use (transition: 1.2s), and (right: 100px, left: 100px) for shape direction
 
 @media (max-width: 100px) - allows to use parameters in specific conditions (max-width)

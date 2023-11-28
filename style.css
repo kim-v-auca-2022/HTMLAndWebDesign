@@ -16,19 +16,14 @@ header {
     padding: 1%;
 }
 
+
+/* div with class name "herolist" */
 .heroList {
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-
-.heroList div {
-    display: flex;
-    align-items: center;
-    /* background-color: red; */
-    gap: 30px;
 }
 
 .heroList a {
@@ -38,6 +33,39 @@ header {
 .heroList img {
     width: 60px;
 }
+
+.heroList .menu {
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    gap: 30px;
+}
+
+.menu {
+    background: #eee;
+    display: none;
+}
+
+.heroList .menu ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.heroList .menu li {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.heroList .menu a {
+    text-decoration: none;
+}
+
+input:checked~.menu {
+    display: block;
+}
+
+
 
 /* .heroList a div {
     padding-left: 2%;
@@ -125,7 +153,10 @@ svg {
 
 .beneficials div {
     font-size: 30px;
+}
 
+.beneficials .benefit div {
+    max-width: 1500px;
 }
 
 .benefit {
